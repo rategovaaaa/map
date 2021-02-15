@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		104BE55725CD529D00F1C2A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104BE55625CD529D00F1C2A3 /* AppDelegate.swift */; };
 		104BE55925CD529D00F1C2A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104BE55825CD529D00F1C2A3 /* SceneDelegate.swift */; };
-		104BE55B25CD529D00F1C2A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104BE55A25CD529D00F1C2A3 /* ViewController.swift */; };
+		104BE55B25CD529D00F1C2A3 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104BE55A25CD529D00F1C2A3 /* LocationVC.swift */; };
 		104BE55E25CD529D00F1C2A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104BE55C25CD529D00F1C2A3 /* Main.storyboard */; };
 		104BE56025CD529E00F1C2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104BE55F25CD529E00F1C2A3 /* Assets.xcassets */; };
 		104BE56325CD529E00F1C2A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104BE56125CD529E00F1C2A3 /* LaunchScreen.storyboard */; };
+		10AE05B325D53B2A009C895C /* MapVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AE05B225D53B2A009C895C /* MapVCViewController.swift */; };
+		10F8F88325D5361F003DA9CC /* Silom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10F8F87E25D52A9F003DA9CC /* Silom.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		104BE55325CD529D00F1C2A3 /* ios map rategova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios map rategova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		104BE55625CD529D00F1C2A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		104BE55825CD529D00F1C2A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		104BE55A25CD529D00F1C2A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		104BE55A25CD529D00F1C2A3 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		104BE55D25CD529D00F1C2A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		104BE55F25CD529E00F1C2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		104BE56225CD529E00F1C2A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		104BE56425CD529E00F1C2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AE05B225D53B2A009C895C /* MapVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVCViewController.swift; sourceTree = "<group>"; };
+		10F8F87E25D52A9F003DA9CC /* Silom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silom.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		104BE55525CD529D00F1C2A3 /* ios map rategova */ = {
 			isa = PBXGroup;
 			children = (
+				104BE56B25CD5F9A00F1C2A3 /* Font */,
 				104BE55625CD529D00F1C2A3 /* AppDelegate.swift */,
 				104BE55825CD529D00F1C2A3 /* SceneDelegate.swift */,
-				104BE55A25CD529D00F1C2A3 /* ViewController.swift */,
+				104BE55A25CD529D00F1C2A3 /* LocationVC.swift */,
+				10AE05B225D53B2A009C895C /* MapVCViewController.swift */,
 				104BE55C25CD529D00F1C2A3 /* Main.storyboard */,
 				104BE55F25CD529E00F1C2A3 /* Assets.xcassets */,
 				104BE56125CD529E00F1C2A3 /* LaunchScreen.storyboard */,
 				104BE56425CD529E00F1C2A3 /* Info.plist */,
 			);
 			path = "ios map rategova";
+			sourceTree = "<group>";
+		};
+		104BE56B25CD5F9A00F1C2A3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				10F8F87E25D52A9F003DA9CC /* Silom.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				104BE56325CD529E00F1C2A3 /* LaunchScreen.storyboard in Resources */,
+				10F8F88325D5361F003DA9CC /* Silom.ttf in Resources */,
 				104BE56025CD529E00F1C2A3 /* Assets.xcassets in Resources */,
 				104BE55E25CD529D00F1C2A3 /* Main.storyboard in Resources */,
 			);
@@ -137,8 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				104BE55B25CD529D00F1C2A3 /* ViewController.swift in Sources */,
+				104BE55B25CD529D00F1C2A3 /* LocationVC.swift in Sources */,
 				104BE55725CD529D00F1C2A3 /* AppDelegate.swift in Sources */,
+				10AE05B325D53B2A009C895C /* MapVCViewController.swift in Sources */,
 				104BE55925CD529D00F1C2A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

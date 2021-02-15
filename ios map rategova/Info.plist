@@ -62,5 +62,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Дать право на использование</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Silom.ttf</string>
+	</array>
 </dict>
 </plist>
